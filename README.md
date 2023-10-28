@@ -1,9 +1,11 @@
 # Heart-Attack-Prediction-Analysis-Project
 
 Introduction
+
 The Heart Disease Prediction Project aims to create a machine-learning model that forecasts an individual's risk of heart disease based on various demographic and health characteristics. This README provides essential information to understand, run, and replicate the project.
 
 Dependencies
+
 The project relies on the following external libraries and frameworks:
 
 - Pandas
@@ -18,16 +20,19 @@ Ensure these dependencies are installed before running the code. You can install
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 Environment Setup
+
 Programming Language: Python
 IDE: Jupyter Notebook (Google Colab)
 Hardware: Google Colab provides cloud-based computing resources (CPUs, GPUs, TPUs).
 
 How to Run
+
 Open the Jupyter Notebook in Google Colab.
 Execute the code cells step by step.
 Ensure the dataset is available, and any necessary data preprocessing steps are performed as mentioned in the code.
 
 Results
+
 The project's key findings include:
 
 Significant gender-based differences in heart disease prevalence.
@@ -36,6 +41,7 @@ Correlations between specific electrocardiographic patterns and heart disease ri
 Machine learning models (Random Forest Classifier and Decision Tree Classifier) were employed, with accuracy as a primary evaluation metric.
 
 Future Work
+
 Potential areas for improvement and expansion:
 
 Feature engineering for enhanced predictive capacity.
@@ -43,6 +49,7 @@ Data expansion with additional relevant features or sources.
 Exploration of advanced ensemble approaches like gradient boosting.
 
 Limitations
+
 Complexity and heterogeneity of heart diseases.
 Challenges in early diagnosis and prevention.
 Genetic predisposition influencing prevention strategies.
@@ -50,8 +57,10 @@ Ethical Considerations
 Ensure the model's usage complies with privacy and ethical regulations.
 
 Contact Information
+
 For questions or feedback, please contact Gladisa Rodrigues at glasarodrigues@gmail.com.
 
 References
+
 Dataset: https://drive.google.com/file/d/1WBFf3PfkPsvDvWn9wHXSJ7RrjbR2hBUc/view?usp=sharing
        : https://drive.google.com/file/d/1wecg2Az7IGBwqfQ2Lta21JWL0C0Or2GW/view?usp=sharing
