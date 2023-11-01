@@ -1,46 +1,58 @@
-## Code
+# Heart Disease Prediction Project
 
-### Project Structure
+## Introduction
 
-The project code is organized into the following directories and files:
+The Heart Disease Prediction Project aims to create a machine-learning model that forecasts an individual's risk of heart disease based on various demographic and health characteristics. This README provides essential information to understand, run, and replicate the project.
 
-- `notebooks/`: Contains Jupyter notebooks for data analysis, preprocessing, and model development.
-- `src/`: Includes Python scripts for utility functions and data processing.
-- `data/`: Holds the dataset used in the project.
+## Dependencies
 
-### Dependencies
+The project relies on the following external libraries and frameworks:
 
-Make sure to install the required dependencies before running the code:
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+Ensure these dependencies are installed before running the code. You can install them using the following command:
 
 ```bash
-pip install -r requirements.txt
-The requirements.txt file lists all necessary Python packages and their versions.
-
+pip install pandas numpy matplotlib seaborn scikit-learn
+Environment Setup
+Programming Language: Python
+IDE: Jupyter Notebook (Google Colab)
+Hardware: Google Colab provides cloud-based computing resources (CPUs, GPUs, TPUs).
 How to Run
-Navigate to the notebooks/ directory.
-Open the Jupyter notebooks in your preferred environment (e.g., Google Colab).
-Execute the code cells sequentially.
-Ensure the dataset is available in the data/ directory, and any required preprocessing steps are performed.
+Open the Jupyter Notebook in Google Colab.
+Execute the code cells step by step.
+Ensure the dataset is available, and any necessary data preprocessing steps are performed as mentioned in the code.
 
-Note on Reproducibility
-To reproduce the exact environment used in this project, consider setting up a virtual environment or container based on the provided requirements.txt file.
+Results
+The project's key findings include:
 
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-pip install -r requirements.txt
+Significant gender-based differences in heart disease prevalence.
+Association between ST segment slope and heart disease likelihood.
+Correlations between specific electrocardiographic patterns and heart disease risk.
+Machine learning models (Random Forest Classifier and Decision Tree Classifier) were employed, with accuracy as a primary evaluation metric.
 
-This ensures consistent dependencies across different environments.
+Future Work
+Potential areas for improvement and expansion:
+Feature engineering for enhanced predictive capacity.
+Data expansion with additional relevant features or sources.
+Exploration of advanced ensemble approaches like gradient boosting.
+Limitations
+Complexity and heterogeneity of heart diseases.
+Challenges in early diagnosis and prevention.
+Genetic predisposition influencing prevention strategies.
+Ethical Considerations
+Ensure the model's usage complies with privacy and ethical regulations.
 
-Model Evaluation
-Metrics such as accuracy, precision, recall, and F1 score were used to evaluate the performance of the machine learning models.
+Contact Information
 
-# Example code snippet for model evaluation
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+For questions or feedback, please contact Gladisa Rodrigues at gladisarodrigues@gmail.com
 
-# Assuming y_true and y_pred are your true and predicted labels
-accuracy = accuracy_score(y_true, y_pred)
-precision = precision_score(y_true, y_pred)
-recall = recall_score(y_true, y_pred)
-f1 = f1_score(y_true, y_pred)
+Dataset:
 
-print(f"Accuracy: {accuracy}, Precision: {precision}, Recall: {recall}, F1 Score: {f1}")
+https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+
+https://drive.google.com/file/d/1amfG5cA8Wl3JGImfdlKj-WE5-h6wvQfa/view?usp=sharing
