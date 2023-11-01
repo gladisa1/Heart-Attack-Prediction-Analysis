@@ -18,10 +18,12 @@ Ensure these dependencies are installed before running the code. You can install
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+
 Environment Setup
 Programming Language: Python
 IDE: Jupyter Notebook (Google Colab)
 Hardware: Google Colab provides cloud-based computing resources (CPUs, GPUs, TPUs).
+
 How to Run
 Open the Jupyter Notebook in Google Colab.
 Execute the code cells step by step.
@@ -41,6 +43,7 @@ Potential areas for improvement and expansion:
 Feature engineering for enhanced predictive capacity.
 Data expansion with additional relevant features or sources.
 Exploration of advanced ensemble approaches like gradient boosting.
+
 Limitations
 Complexity and heterogeneity of heart diseases.
 Challenges in early diagnosis and prevention.
